@@ -1,6 +1,7 @@
 import { Header } from "../../components/Header";
 import background from "../../assets/background.png";
 import "./styles.css";
+import { ItemList } from "../../components/ItemList";
 export const Home = () => {
   return (
     <>
@@ -23,7 +24,13 @@ export const Home = () => {
               <p>Descrição</p>
             </div>
           </div>
-          <hr/>
+          <hr />
+          <div>
+            <h2 className="repositorio">Repositórios</h2>
+            <ItemList title="Nome repositório" description="Descrição repositório" />
+            <ItemList title="Nome repositório" description="Descrição repositório" />
+            <ItemList title="Nome repositório" description="Descrição repositório" />
+          </div>
         </div>
       </div>
     </>
