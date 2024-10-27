@@ -14,17 +14,20 @@
 }
 
 .info {
-  width: 80%;
+  width:60%;
   margin-right: 20px;
   margin-top: 40px;
+  
   color: #fff;
   z-index: 1;
 }
-form {
+
+.form {
   width: 100%;
   display: flex;
   gap: 1rem;
 }
+
 input {
   border-radius: 22px;
   border: 1px solid #999999;
