@@ -7,12 +7,24 @@ export const Home = () => {
       <Header />
       <div className="conteudo">
         <img src={background} alt="" className="background" />
-     <div className="info">
-        <form>
+        <div className="info">
+          <form>
             <input type="text" name="usuario" placeholder="@username" />
             <button>Buscar</button>
-        </form>
-     </div>
+          </form>
+          <div className="perfil">
+            <img className="profile" src="https://github.com/joao-ressel.png" alt="" />
+            <div className="perfil-text">
+              <div className="name-user">
+                <h3>João Carlos Ressel</h3>
+                <span>@joao-ressel</span>
+              </div>
+
+              <p>Descrição</p>
+            </div>
+          </div>
+          <hr/>
+        </div>
       </div>
     </>
   );
